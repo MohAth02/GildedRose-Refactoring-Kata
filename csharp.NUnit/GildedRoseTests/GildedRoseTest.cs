@@ -58,9 +58,9 @@ public class GildedRoseTest
 
 
     [Test]
-    public void testBackstagePassesSellingStaysTheSame()
+    public void testSulfurasSellInStaysTheSame()
     {
-        var items = new List<Item> { new Item { Name = "Backstage passes to a TAFKAL80ETC concert", SellIn = 15, Quality = 20 } };
+        var items = new List<Item> { new Item { Name = "Sulfuras, Hand of Ragnaros", SellIn = 15, Quality = 80 } };
         var app = new GildedRose(items);
         for (var i = 0; i <= 15; i++)
         {
